@@ -1,13 +1,9 @@
 import sys
 from azure.storage.blob.blockblobservice import BlockBlobService
-from azure.storage import *
 from azure.storage.blob import ContentSettings
 
 
-
-
-block_blob_service = BlockBlobService(account_name='azuremvp', account_key='o4TFKR/k006Akal0EgW7LUYxzLpnchr6kJw1cIQi2SqoDb6t3nSQ5w4bhp8OLTseTUGRUbhJfp36i2iJgn/M4w==');
-a="asdfad";
+block_blob_service = BlockBlobService(account_name='YourAccountName', account_key='Your Key');
 
 #------------------------- Credentials ---------------------------#
 #                                                                 #
